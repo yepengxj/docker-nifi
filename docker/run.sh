@@ -66,4 +66,4 @@ if [ "$NIFI_INSTANCE_ROLE" == "cluster-manager" ]; then
 fi
 
 # must be an exec so NiFi process replaces this script and receives signals
-exec ./nifi.sh run
+./nifi.sh run
